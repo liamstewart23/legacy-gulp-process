@@ -1,0 +1,62 @@
+{
+  "name": "legacy-gulp-process",
+  "version": "1.0.0",
+  "description": "A codified version of our gulp process",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamstewart23/legacy-gulp-process.git"
+  },
+  "contributors": [
+    {
+      "name": "Liam Stewart",
+      "email": "hello@liamstewart.ca"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamstewart23/legacy-gulp-process/issues"
+  },
+  "homepage": "https://github.com/liamstewart23/legacy-gulp-process#readme",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "cross-env": "^5.2.0",
+    "gulp": "^4.0.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.2"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "cross-env": "^5.2.0",
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "fast-glob": "^2.2.4",
+    "gulp-file": "^0.4.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-jpegoptim": "^6.0.0",
+    "node-notifier": "^5.3.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  }
+}
