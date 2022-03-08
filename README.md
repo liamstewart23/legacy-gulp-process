@@ -2,10 +2,10 @@
 Currently built on Gulpjs
 
 ## Install on a new project
-1) `npx install-peerdeps --dev arcane-gulp`
+1) `npx install-peerdeps --dev legacy-gulp-process`
 2) Create a `gulpfile.js`
     ```javascript
-    const tasks = require('arcane-gulp');
+    const tasks = require('legacy-gulp-process');
        
     tasks.config({
        source: {
